@@ -75,6 +75,9 @@ Here's an example of how to use the API endpoint using curl, to classify an exer
 curl -X POST -F "file=@path/to/image.jpg" http://localhost:5000/api/
 ```
 
+#### Importent: If you are familiar with react js here is a simple app that use this api [here](https://github.com/HicH987/react_client_test_model)
+
+
 ## Additional Information
 This project contains the following files:
 
