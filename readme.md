@@ -75,9 +75,6 @@ Here's an example of how to use the API endpoint using curl, to classify an exer
 curl -X POST -F "file=@path/to/image.jpg" http://localhost:5000/api/
 ```
 
-#### Importent: If you are familiar with react js here is a simple app that use this api [here](https://github.com/HicH987/react_client_test_model)
-
-
 ## Additional Information
 This project contains the following files:
 
@@ -86,6 +83,12 @@ This project contains the following files:
 - `app.py`: Flask application that serves the exercise classifier API.
 - `inference.py`: Contains functions for making predictions using the exercise classifier model.
 - `requirements.txt`: A list of required Python packages for this project.
+
+### Importent: 
+
+- If you are familiar with react js here is a simple app that use this api [here](https://github.com/HicH987/react_client_test_model)
+
+- Deploy the api on colab <a href="https://githubtocolab.com/HicH987/flask_api_model/blob/master/%23%20deployment_colab.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a> 
 
 For more information on how to use Flask, please refer to the official Flask documentation: https://flask.palletsprojects.com/.
 
