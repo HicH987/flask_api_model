@@ -37,8 +37,8 @@ This is a Flask API for classifying fitness exercises based on the input image. 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/HicH987/flask_api_model.git
-   cd flask_api_model
+   git clone https://github.com/HicH987/model_flask_api.git
+   cd model_flask_api
    ```
 
 2. Install the required packages:
@@ -88,7 +88,7 @@ This project contains the following files:
 
 - If you are familiar with react js here is a simple app that use this api [here](https://github.com/HicH987/react_client_test_model)
 
-- Deploy the api on colab <a href="https://colab.research.google.com/github/HicH987/flask_api_model/blob/master/%23%20deployment_colab.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
+- Deploy the api on colab <a href="https://colab.research.google.com/github/HicH987/model_flask_api/blob/master/%23%20deployment_colab.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
 
 For more information on how to use Flask, please refer to the official Flask documentation: https://flask.palletsprojects.com/.
 
