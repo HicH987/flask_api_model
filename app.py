@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 import cv2
+import argparse
 import numpy as np
+
 from flask_cors import CORS
 from flask import Flask, request, jsonify
 
@@ -10,11 +12,9 @@ app = Flask(__name__)
 CORS(app)
 
 
-@app.route("/test/")
+@app.route("/test")
 def test():
     return "!!!! test flask app !!!!"
-
-
 
 
 @app.route('/classify_exercise', methods=['POST'])
@@ -34,6 +34,16 @@ def classify_exercise():
     )
 
 
+parser = argparse.ArgumentParser()
+parser.add_argument('--url', help='ACCESS LINK', default=None)
+parser.add_argument('--port', help='PORT NUM', default=None)
+
+args = parser.parse_args()
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    if args.url:
+        for rule in list(app.url_map.iter_rules())[1:]:
+                print(str(args.url)+str(rule))
+        print('\n')
+    
+    app.run(debug=True, port=args.port)
