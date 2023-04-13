@@ -24,6 +24,25 @@ LABELS = [
     "tricep_pushdown",
 ]
 
+LABELS = [
+    "bench press",
+    "biceps curl",
+    "chest fly machine",
+    "deadlift",
+    "lat pulldown",
+    "lateral raise",
+    "leg raises",
+    "plank",
+    "pullup",
+    "pushup",
+    "russian twist",
+    "shoulder press",
+    "squat",
+    "tricep dips",
+    "tricep pushdown",
+]
+
+
 # used landmarks
 LANDMARKS_DICT = {
     0: 0,  # nose
