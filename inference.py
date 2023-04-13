@@ -10,7 +10,7 @@ from helpers.utils import (
 
 
 K_NUM_FRAMES = 30
-clf_model_path = "./models/7lD_model.tflite"
+clf_model_path = "./models/model_weightless.tflite"
 pose_model_complexity=1
 
 frame_queue = deque(maxlen=K_NUM_FRAMES)
