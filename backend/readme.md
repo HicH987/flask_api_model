@@ -37,8 +37,8 @@ This is a Flask API for classifying fitness exercises based on the input image. 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/HicH987/model_flask_api.git
-   cd model_flask_api
+   git clone https://github.com/HicH987/workout_model_webApp.git
+   cd model_flask_api/backend
    ```
 
 2. Install the required packages:
